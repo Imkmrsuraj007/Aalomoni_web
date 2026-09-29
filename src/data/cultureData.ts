@@ -1,4 +1,9 @@
 import { CulturalTopic } from '../types';
+import kudmaliMarriageImage from '../assets/kudmali_marriage.jpeg';
+import chhauImage from '../assets/chhau.jpeg';
+import jhumarImage from '../assets/jhumar.jpeg';
+import kudmaliCuisineImage from '../assets/kudmali_cuisine.jpeg';
+import kudmaliAttireImage from '../assets/kudmali_attire.jpeg';
 
 export const CULTURAL_TOPICS_DATA: CulturalTopic[] = [
   {
@@ -6,7 +11,7 @@ export const CULTURAL_TOPICS_DATA: CulturalTopic[] = [
     title: 'Kudmali Marriage Traditions (Biha & Neg-Chaar)',
     kudmaliTitle: 'कुड़मालि बिहा आरु नेग-चार (Sacred Nuptial Rituals)',
     category: 'Traditions',
-    image: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1200&q=80',
+    image: kudmaliMarriageImage,
     summary: 'A nature-reverent matrimonial tapestry grounded in community blessings, tree marriages (Aam-Biha / Mahul-Biha), turmeric cleansings, and heartfelt farewell songs.',
     keyHighlights: [
       'Aam-Biha & Mahul-Biha: Sacred tree wedding rituals where the bride and groom first establish communion with nature.',
@@ -23,31 +28,51 @@ export const CULTURAL_TOPICS_DATA: CulturalTopic[] = [
     tags: ['Marriage', 'Biha', 'Customs', 'Tree Rituals', 'Songs']
   },
   {
-    id: 'chhau-jhumur-dances',
-    title: 'Chhau & Jhumur: The Cosmic Rhythm of Manbhum',
-    kudmaliTitle: 'छऊ नाच आरु झुमुर: मानभूमेक ताल-तरंग',
+    id: 'chhau-dance',
+    title: 'Purulia Chhau: The Martial & Mask Dance of Manbhum',
+    kudmaliTitle: 'पुरुलिया छऊ नाच: मानभूमेक मुखौटा आरु वीर रस',
     category: 'Dance & Music',
-    image: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1200&q=80',
-    summary: 'From the athletic martial leaps of Purulia Chhau to the rhythmic hip-swaying Jhumur circles of the village Akhra, dance is the communal heartbeat of the Kudmi identity.',
+    image: chhauImage,
+    summary: 'A world-renowned UNESCO Intangible Cultural Heritage martial dance fusing athletic leaps, heroic mythological storytelling, and majestic Charida papier-mâché masks.',
     keyHighlights: [
-      'Purulia Chhau: UNESCO Intangible Cultural Heritage known for ornate painted papier-mâché masks and gravity-defying somersaults.',
-      'Bhaduria & Nachni Jhumur: Expressive, poetic dance-drama portraying Radha-Krishna allegories and monsoon romances.',
-      'Acoustic Core: Driven by the clay Mandar, buffalo-hide Dhamsa, brass Kartal, and high-pitched bamboo flute (Shehnai/Banshi).'
+      'Charida Mask Artistry: Elaborate multi-tiered crowns adorned with iridescent peacock feathers, zari filigree, and expressive mythological deity faces.',
+      'Martial Acrobatics (Parikhanda): Explosive mid-air somersaults, dynamic martial squats (Chowk), and heroic sword-and-shield combat.',
+      'Volcanic Acoustic Heartbeat: Driven by the deafening strikes of the cast-iron Dhamsa cauldron, the clay Mandar, and piercing Shehnai horn melodies.'
     ],
     fullArticle: [
-      'Dance in the Kudmali homeland is never an elitist spectacle staged for passive spectators; it is participatory theater where every villager belongs to the chorus.',
-      'Chhau dance, originating in Manbhum and Singhbhum, fuses martial training (Parikhanda) with mythological storytelling. The artists wear majestic clay-and-cloth masks molded in Charida village, personifying gods, forest animals, and demons. Every dramatic landing on the soil reverberates with thunderous Dhamsa strokes.',
-      'Complementing the vigor of Chhau is the gentle, hypnotic grace of Jhumur. As dusk envelops the Akhra, village women link arms at the elbows or wrists, moving forward and backward in synchronized half-steps that mirror the ripening curves of windblown paddy stalks.'
+      'Chhau dance is the crowning theatrical glory of Manbhum and the Chotanagpur plateau, fusing ancient indigenous martial training (Parikhanda) with grand epics of heroic resistance and cosmic valor.',
+      'Each dancer transforms into a deity or legendary warrior through the sacred clay-and-cloth mask, meticulously molded and painted by artisan families in the village of Charida in Purulia. The masks feature majestic multi-tiered crowns crowned with real peacock feathers and shimmering zari work.',
+      'When the giant cauldron Dhamsa drum reverberates across the night Akhra, struck with dual curved hardwood sticks, the ground itself trembles. The dancers execute gravity-defying leaps, sweeping sword maneuvers, and spinning landings that capture the untamed spirit of the forest.'
     ],
-    relatedSongs: ['आलोमोनि तोर नावे मांदर बाजे', 'भादरिया झुमुर'],
-    tags: ['Dance', 'Chhau', 'Jhumur', 'Mandar', 'Akhra']
+    relatedSongs: ['धमसा बाजे गुरु-गुरु, नाचे छऊर वीर', 'वीर रस झांझ'],
+    tags: ['Dance', 'Chhau', 'Dhamsa', 'Charida', 'UNESCO', 'Manbhum']
+  },
+  {
+    id: 'jhumur-dance',
+    title: 'Kudmali Jhumur: The Soulful Rhythms of the Village Akhra',
+    kudmaliTitle: 'कुड़मालि झुमुर नाच: अखड़ाक सुर, ताल आरु गति',
+    category: 'Dance & Music',
+    image: jhumarImage,
+    summary: 'The communal heartbeat of Kudmi sisterhood and seasonal romance — women linking arms in graceful swaying circles under the dusk sky of the village Akhra.',
+    keyHighlights: [
+      'Lal-Paad Handloom Elegance: Dancers draped in traditional white-and-crimson bordered sarees, adorned with silver Hansli neck collars and wild Sal blossoms in their hair buns.',
+      'Unbroken Akhra Ring: Interlocking arms at wrists and elbows, stepping forward and backward in hypnotic synchronized waves mirroring windblown paddy fields.',
+      'Living Musical Cadence: Guided by the clay Mandar drum with tuning Kharan paste, the resonant brass Kartal cymbals, and pastoral bamboo Tirio flutes.'
+    ],
+    fullArticle: [
+      'If Chhau embodies the fiery, martial pulse of the plateau, Jhumur is its gentle, hypnotic feminine counterpart — the poetic breath of the Kudmi soul.',
+      'As dusk envelops the Akhra, village women link arms at the wrists and elbows, forming an unbroken crescent or circle. Moving together with gentle knee bends and rhythmic half-steps, they create a mesmerizing visual wave that mirrors the ripening curves of windblown paddy stalks across the red earth.',
+      'Jhumur is inseparable from the seasons: Bhaduria Jhumur laments the separation of lovers during the monsoon, Rong Jhumur welcomes the spring blossoming of Sal and Mahua, and Darbari Jhumur explores classical poetic refinement.'
+    ],
+    relatedSongs: ['आलोमोनि तोर नावे मांदर बाजे', 'भादरिया झुमुर', 'आपन करम भायाक धरम'],
+    tags: ['Dance', 'Jhumur', 'Mandar', 'Akhra', 'Lal-Paad', 'Sisterhood']
   },
   {
     id: 'traditional-kudmali-cuisine',
     title: 'Flavors of the Soil: Dhuska, Arsa Pitha & Madua',
     kudmaliTitle: 'माटिर सुवाद: धुसका, अरसा पीठा आरु मड़ुआ रोटी',
     category: 'Food',
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80',
+    image: kudmaliCuisineImage,
     summary: 'A seasonal, organic culinary philosophy celebrating wild forest tubers, indigenous short-grain rice, finger millet, and festive steamed and fried delicacies.',
     keyHighlights: [
       'Dhuska & Ghugni: Golden savory fritters made from soaked rice and chana dal, served during festivals.',
@@ -104,7 +129,7 @@ export const CULTURAL_TOPICS_DATA: CulturalTopic[] = [
     title: 'Earthy Elegance: Kudmali Attire, Panchat & Ornaments',
     kudmaliTitle: 'हामार पहरावा: पाँछात, गमछा आरु चाँदीर गहना',
     category: 'Attire',
-    image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=80',
+    image: kudmaliAttireImage,
     summary: 'The unbleached handloom cottons, red-bordered Panchat saris, and heavy cast-silver ornaments that reflect simplicity, dignity, and agricultural grace.',
     keyHighlights: [
       'Panchat Sari: Coarse organic cotton handwoven with natural madder-red borders, worn without petticoats for agility in the fields.',

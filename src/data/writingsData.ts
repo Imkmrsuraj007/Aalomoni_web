@@ -1,4 +1,5 @@
 import { KudmaliWriting } from '../types';
+import jhumarImage from '../assets/jhumar.jpeg';
 
 export const KUDMALI_WRITINGS: KudmaliWriting[] = [
   {
@@ -60,7 +61,7 @@ And in the deep incense of the sal woods, may every generation find peace.`,
     author: 'Aarti Mahato',
     date: '28 August 2025',
     readTime: '4 min read',
-    featuredImage: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1200&q=80',
+    featuredImage: jhumarImage,
     tags: ['Akhra', 'Sisterhood', 'Karam', 'Reflections'],
     isFeatured: true,
     originalText: 

@@ -3,6 +3,11 @@ import karamImage from '../assets/karam.jpeg';
 import tusuImage from '../assets/tusu.jpeg';
 import sohraiImage from '../assets/sohrai.jpeg';
 import sarhulImage from '../assets/sarhul.jpeg';
+import kudmaliMarriageImage from '../assets/kudmali_marriage.jpeg';
+import chhauImage from '../assets/chhau.jpeg';
+import jhumarImage from '../assets/jhumar.jpeg';
+import kudmaliCuisineImage from '../assets/kudmali_cuisine.jpeg';
+import kudmaliAttireImage from '../assets/kudmali_attire.jpeg';
 
 export const GALLERY_DATA: GalleryPhoto[] = [
   {
@@ -55,19 +60,19 @@ export const GALLERY_DATA: GalleryPhoto[] = [
   },
   {
     id: 'g-7',
-    title: 'Masks of the Purulia Chhau Dancers',
+    title: 'Purulia Chhau Martial Dancer & Giant Mask',
     category: 'Art & Craft',
-    imageUrl: 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&w=1200&q=80',
-    caption: 'Clay and papier-mâché masks sculpted with fine mythological detailing by artisan families of Charida village.',
+    imageUrl: chhauImage,
+    caption: 'Heroic Chhau dancer in mid-air leap brandishing sword and shield, wearing the multi-tiered peacock feather crown and Charida mask, propelled by the thunder of the Dhamsa drum.',
     location: 'Charida, Purulia'
   },
   {
     id: 'g-8',
-    title: 'Traditional Aam-Biha Blessing',
+    title: 'Kudmali Biha & Chuman Ritual under Marwa',
     category: 'Ceremonies',
-    imageUrl: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1200&q=80',
-    caption: 'The groom and family pledging stewardship to a fruiting mango tree before the wedding procession sets forth.',
-    location: 'Dhanbad Outskirts'
+    imageUrl: kudmaliMarriageImage,
+    caption: 'Groom in traditional palm-leaf Maur crown and bride in Lal-Paad saree blessed with unpolished rice, Dhubi grass, and sacred Kalas under the leaf canopy.',
+    location: 'Manbhum / Chotanagpur'
   },
   {
     id: 'g-9',
@@ -76,5 +81,29 @@ export const GALLERY_DATA: GalleryPhoto[] = [
     imageUrl: 'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80',
     caption: 'Golden sheaves of paddy gathered by hand before the arrival of Poush and Tusu celebrations.',
     location: 'Mayurbhanj Border'
+  },
+  {
+    id: 'g-10',
+    title: 'Kudmali Jhumur Dance Circle at the Akhra',
+    category: 'Festivals',
+    imageUrl: jhumarImage,
+    caption: 'Women linking arms at wrists and elbows in synchronized wave motion wearing Lal-Paad sarees with fresh Sal blossoms in their hair, accompanied by the clay Mandar and bamboo Banshi.',
+    location: 'Purulia / Manbhum Akhra'
+  },
+  {
+    id: 'g-11',
+    title: 'Flavors of the Soil: Dhuska, Arsa Pitha & Madua',
+    category: 'Village Life',
+    imageUrl: kudmaliCuisineImage,
+    caption: 'A traditional feast served on a fresh stitched Sal leaf platter (Patari): golden puffed Dhuska with spicy Kala Chana Ghugni in a leaf Dona, jaggery-glazed Arsa Pitha with white sesame seeds, and warm rustic Madua Roti.',
+    location: 'Chotanagpur / Manbhum'
+  },
+  {
+    id: 'g-12',
+    title: 'Kudmali Panchat & Solid Silver Hasli Ornaments',
+    category: 'Art & Craft',
+    imageUrl: kudmaliAttireImage,
+    caption: 'Traditional handspun organic cotton Panchat with madder-red temple borders, worn with the heavy cast-silver Hansli torque, Tarpat earrings, and silver Bajubandh.',
+    location: 'Manbhum / Chotanagpur Courtyard'
   }
 ];
